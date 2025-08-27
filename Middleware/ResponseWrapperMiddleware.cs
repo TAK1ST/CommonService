@@ -36,7 +36,7 @@ public class ResponseWrapperMiddleware
             try
             {
                 var data = JsonSerializer.Deserialize<object>(responseBody);
-                responseObj = ApiResponse<object>.Ok(data, "Request successful");
+                responseObj = ApiResponse<object>.Ok(data ?? new { }, "Request successful");
             }
             catch
             {

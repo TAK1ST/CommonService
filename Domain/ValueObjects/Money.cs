@@ -29,6 +29,12 @@ public class Money
         return new Money(Amount + other.Amount, Currency);
     }
 
+    public Money? Multiply(int item)
+    {
+        // Need fix
+        return null;
+    }
+
     // Override Equals and GetHashCode to compare by value
     public override bool Equals(object? obj)
     {

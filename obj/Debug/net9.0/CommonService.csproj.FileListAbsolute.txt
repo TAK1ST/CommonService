@@ -35,3 +35,9 @@ E:\Code\CSharp\CommonService\obj\Debug\net9.0\refint\CommonService.dll
 E:\Code\CSharp\CommonService\obj\Debug\net9.0\CommonService.pdb
 E:\Code\CSharp\CommonService\obj\Debug\net9.0\CommonService.genruntimeconfig.cache
 E:\Code\CSharp\CommonService\obj\Debug\net9.0\ref\CommonService.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\MediatR.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\MediatR.Contracts.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll

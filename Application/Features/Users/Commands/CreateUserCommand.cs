@@ -6,15 +6,15 @@ public class CreateUserCommand : IRequest<Guid>
 {
     [Required(ErrorMessage = "Email is required")]
     [EmailAddress(ErrorMessage = "Email format is invalid")]
-    public string Email { get; set; }
+    public required string Email { get; set; }
 
     [Required(ErrorMessage = "Name is required")]
     [MaxLength(50, ErrorMessage = "Name must not exceed 50 characters")]
-    public String Username { get; set; }
+    public required String Username { get; set; }
 
     [Required(ErrorMessage = "Password is required")]
     [MinLength(6, ErrorMessage = "Password must be at least 6 characters")]
-    public String Password { get; set; } 
+    public required String Password { get; set; }
 
 
 }

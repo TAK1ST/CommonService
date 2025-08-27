@@ -3,28 +3,88 @@
   "WorkspaceRootPath": "E:\\Code\\CSharp\\CommonService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\.gitgnore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:.gitgnore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\features\\users\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\features\\users\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\common\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\common\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\domain\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:domain\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\features\\users\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\features\\users\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\infrastructure\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:infrastructure\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\infrastructure\\services\\inmemorycacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:infrastructure\\services\\inmemorycacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\application.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\application.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\features\\users\\handlers\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\features\\users\\handlers\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\middleware\\responsewrappermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:middleware\\responsewrappermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\infrastructure\\persistance\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:infrastructure\\persistance\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\document.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:document.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\interfaces\\iservices\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\interfaces\\iservices\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\middleware\\middleware.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:middleware\\middleware.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\infrastructure\\persistances\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:infrastructure\\persistances\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|e:\\code\\csharp\\commonservice\\application\\common\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC1E154-C4CA-4D5A-9A21-11FF2B1BA407}|CommonService.csproj|solutionrelative:application\\common\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +94,262 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitgnore",
-              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\.gitgnore",
-              "RelativeDocumentMoniker": ".gitgnore",
-              "ToolTip": "E:\\Code\\CSharp\\CommonService\\.gitgnore",
-              "RelativeToolTip": ".gitgnore",
-              "ViewState": "AgIAAEoBAAAAAAAAAAAAAFQBAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-26T10:56:24.497Z",
+              "DocumentIndex": 5,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Domain\\Entities\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\BankAccount.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Domain\\Entities\\BankAccount.cs",
+              "RelativeToolTip": "Domain\\Entities\\BankAccount.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:41:08.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Money.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Domain\\ValueObjects\\Money.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Money.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Domain\\ValueObjects\\Money.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Money.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwCIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:39:33.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAUAAAAFAAAAAAAAAA==",
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T10:30:44.627Z",
+              "WhenOpened": "2025-08-27T18:39:24.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EmailService.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:37:27.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:31:27.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Features\\Users\\Commands\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Users\\Commands\\CreateUserCommand.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\Features\\Users\\Commands\\CreateUserCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Users\\Commands\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:23:10.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Features\\Users\\Queries\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Users\\Queries\\GetUserByIdQuery.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\Features\\Users\\Queries\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Users\\Queries\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:22:44.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:20:44.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\RedisCacheService.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\RedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:42:36.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Application.md",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Application.md",
+              "RelativeDocumentMoniker": "Application\\Application.md",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\Application.md",
+              "RelativeToolTip": "Application\\Application.md",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAJ8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-27T17:28:21.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InMemoryCacheService.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Services\\InMemoryCacheService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\InMemoryCacheService.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Services\\InMemoryCacheService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\InMemoryCacheService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:04:43.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RequestResponseLoggingMiddleware.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T07:53:24.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Features\\Users\\Handlers\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Users\\Handlers\\CreateUserCommandHandler.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\Features\\Users\\Handlers\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Users\\Handlers\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T09:32:33.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T09:47:17.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "document.md",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\document.md",
+              "RelativeDocumentMoniker": "document.md",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\document.md",
+              "RelativeToolTip": "document.md",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAALoAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-27T07:15:47.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ResponseWrapperMiddleware.cs",
               "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Middleware\\ResponseWrapperMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\ResponseWrapperMiddleware.cs",
               "ToolTip": "E:\\Code\\CSharp\\CommonService\\Middleware\\ResponseWrapperMiddleware.cs",
               "RelativeToolTip": "Middleware\\ResponseWrapperMiddleware.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwDAAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T10:29:38.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T10:30:44.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Interfaces\\IServices\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\ICacheService.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Application\\Interfaces\\IServices\\ICacheService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:03:40.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Middleware.md",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Middleware\\Middleware.md",
+              "RelativeDocumentMoniker": "Middleware\\Middleware.md",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Middleware\\Middleware.md",
+              "RelativeToolTip": "Middleware\\Middleware.md",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-27T08:24:02.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Application\\Common\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Application\\Common\\Models\\ApiResponse.cs",
@@ -90,25 +362,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Middleware\\ErrorHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\ErrorHandlingMiddleware.cs",
-              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Middleware\\ErrorHandlingMiddleware.cs",
-              "RelativeToolTip": "Middleware\\ErrorHandlingMiddleware.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:47:17.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Persistance\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\UserRepository.cs",
-              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Persistance\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Persistance\\UserRepository.cs",
+              "DocumentMoniker": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Persistances\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistances\\UserRepository.cs",
+              "ToolTip": "E:\\Code\\CSharp\\CommonService\\Infrastructure\\Persistances\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistances\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T13:00:03.665Z",

@@ -19,6 +19,7 @@ namespace CommonService
 
             //Register Middleware
             app.UseMiddleware<ErrorHandlingMiddleware>();
+            app.UseMiddleware<RequestResponseLoggingMiddleware>();
             app.UseMiddleware<ResponseWrapperMiddleware>();
 
             // Configure the HTTP request pipeline.
