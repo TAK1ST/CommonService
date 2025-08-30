@@ -1,8 +1,5 @@
-﻿using CommonService.Application.Behaviors;
-using CommonService.Application.Interfaces.IServices;
+﻿using CommonService.Application.Interfaces.IServices;
 using CommonService.Infrastructure.Services;
-using MediatR;
-using System.Reflection;
 
 namespace CommonService.Infrastructure;
 

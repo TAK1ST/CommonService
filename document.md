@@ -34,7 +34,9 @@
   * [6. Where Should the Logger Be Placed?](#6-where-should-the-logger-be-placed)
   * [7. Best Practice to Not Overload the Server](#7best-practice-to-not-overload-the-server)
   * [8. Diagram](#8-diagram)
+* [Payment](#payment)
 
+* [Note](#note)
 
  ---
 
@@ -60,8 +62,9 @@ The project follows clean architecture principles and includes a `tests/` folder
 * API documentation standards.
 * Testing strategies (end-to-end and integration).
 * Clean architecture principles.
-* FluentValidation for input validation.
+* FluentValidation for input validation. (changed to Data Annotation).
 * Loggers.
+* Payment gateway integration (Stripe,...).
 
 ---
 
@@ -185,3 +188,73 @@ Level-based logging:
  - Application Layer: Cache for Command/Query Handler (eg: GetUserById, GetProduct), declare ICacheService interface (only define contract, don't know whether to use In-Memory or Redis).
  - Infrastructure Layer: Implement CacheService (In-Memory or Redis).
  - Presentation Layer: Use CacheService in Controller/Endpoint (eg: GetProductById, GetAllProducts), Only call service → don't care about implementation.
+# Payment
+### 1. Overview
+  - This project integrates Stripe payment gateway to handle payments securely and efficiently.
+### 2. How to use
+  - Install Stripe NuGet package. (dotnet add package Stripe.net)
+  - Configure Stripe API keys in appsettings.json.
+  - Create PaymentService to handle payment logic (create payment intent, confirm payment).
+  - Use PaymentService in your controllers to process payments.
+  - Configuration example:
+    - Infile Pogram.cs (Back end)
+  ```csharp
+  using Stripe;
+
+var builder = WebApplication.CreateBuilder(args);
+
+StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
+
+var app = builder.Build();
+  ```
+  - Frondend (React)
+  ```
+  <script src="https://js.stripe.com/v3/"></script>
+<script>
+  const stripe = Stripe("pk_test_xxx"); // PublishableKey
+
+  async function pay() {
+    const response = await fetch("/api/payment/create-payment-intent", { method: "POST" });
+    const { clientSecret } = await response.json();
+
+    const result = await stripe.confirmCardPayment(clientSecret, {
+      payment_method: {
+        card: elements.create("card").mount("#card-element"),
+      }
+    });
+
+    if (result.error) {
+      alert(result.error.message);
+    } else {
+      if (result.paymentIntent.status === "succeeded") {
+        alert("Thanh toán thành công!");
+      }
+    }
+  }
+</script>
+```
+  - Web Hook (to handle asynchronous events from Stripe) in Program.cs
+  ```csharp app.MapPost("/webhook", async (HttpRequest request) =>
+{
+    var json = await new StreamReader(request.Body).ReadToEndAsync();
+    var stripeEvent = EventUtility.ConstructEvent(
+        json,
+        request.Headers["Stripe-Signature"],
+        "whsec_xxx" // Webhook secret từ Stripe Dashboard
+    );
+
+    if (stripeEvent.Type == Events.PaymentIntentSucceeded)
+    {
+        var paymentIntent = stripeEvent.Data.Object as PaymentIntent;
+        Console.WriteLine($"Payment success: {paymentIntent.Id}");
+    }
+
+    return Results.Ok();
+});
+```
+### [3.Diagram](https://mermaid.live/edit#pako:eNptU91u0zAUfpUjX7Ui_Ut_0uRiUtsNNk1ApQ4Vodx4yWlqltiZ43SUqhI8CxJ3vMAmxAVPUp4EO0lHu5ErH-f7O8f2hgQiROKRDG9z5AGeMhpJmvgc9JdSqVjAUsoVvMtQAs1gEjPUZW0sxZ3ZasEoTevP8TOUq5Ixmk2bb86uYEyDG-Thf6BKshQNtFqNphfPUfNzg5jj9VKIGzjjYSoYVz4vkSZe4-SkdPVg-nZ2BS2aslZK14kO3AokUoWNqmxoKhq24ZYkwy7sPZgUWJiW2IsCCrUZag0Fl7iu2i3hjUPbI8YLCIphlcQjL80xib0jBCi5u_8Gq93D16dtVcECwRdMJhMqw8qqdihQh9ucVrGaH7OnKUvHy939L6WBxqqW6gNhPNKnmOVBgBhiqNcLymIM6_sQ_xTm5x682j38YI_ngKtiNkeNzw6kXu6ljND8_GBW77UOxL9_wnWeMY5ZBrGIWAC1PA3N9E_HFkSFFyZa5M-X71qFWCSSLCSekjlaJEGp_-mSbIyDT9QSE_SJp5chLmgeK5_4fKtp-g59ECLZM6XIoyXxFjTOdFVaVnf_EaJng3Iicq6IZ_edQoN4G_JJl8Nmz-k79sDtt91uZ9C1yJp4na7T7LS7btd2bGfQ6Q2HW4t8LlzbTbfnuMOu2x_0bLvfHlgEQ6aEfF2-v-IZbv8C0Zg3Sg)
+# Note
+## [What is MediatR?](https://mermaid.live/edit#pako:eNpFkctuwjAQRX_FmlUrhZAHISGqkCCAugCppVIXJSxcMgRLiZ06dl_Av9d5oHrlmXvPXNlzhoPIEGI4FuLrcKJSkfU25cSc2S4RXElRFCj3ZDCYXl6QZ2SLHxprdSHzuw1mjKrtfeefNx6S7J5YhQXjSOZ4op9MyPrhXQ6nZC3ynPHcIq-0YBlVTHCLoDrY-45PWn6x6wPII-WZie7gRJSlqYfPGuXPTerBRQsud3Ndm9i6bpLYoReXrbgyU-tK8Br79qptz1IOFuSSZRArqdGCEmVJmxLOjTEFdcISU4jNNcMj1YVKIeVXg1WUvwlR3kgpdH6C-EiL2lS6Mi_EBaO5pP8W838oE6G5gngUhe0MiM_wDfHA8yM7cP3xaOyGYeSNPSP_QOxGge2Gk8DxfT_yHWfiXS34bXNd23f8MIg81xhcZxIEFpiNKCE33U7b1V7_AJy4lOE)
+- MediatR is a library in .NET that helps separate the place where the request is sent and the place where the request is processed, based on the Mediator design pattern. It is very useful when applying CQRS - that is, separating the command processing part (Command) and the data query part (Query). 
+    - `IRequest<TResponse>`: Represents a request that expects a response of type TResponse via IMediator.
+    - `IMediator`: The main interface for sending requests and publishing notifications. its like a "reception counter" of MediatR.

@@ -41,3 +41,7 @@ E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractio
 E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
 E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
 E:\Code\CSharp\CommonService\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\Stripe.net.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\Code\CSharp\CommonService\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
